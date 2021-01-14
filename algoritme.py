@@ -33,7 +33,7 @@ class number:
 
 
 def tekst():
-    Number = (input("Indtast et tal "))
+    Number = (input("Indtast et heltal "))
     try:
         Number = int(Number)
     except:
