@@ -1,0 +1,7 @@
+    for label in range(len(liste)*2):
+        rowLabel = int(label / 2)
+        if (label % 2) == 0:
+            columnLabel = 0
+        else:
+            columnLabel = 1
+        text = str(liste[int(label/2)][columnLabel])
